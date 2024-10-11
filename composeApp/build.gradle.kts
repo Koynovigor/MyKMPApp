@@ -16,7 +16,7 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -27,7 +27,7 @@ kotlin {
             isStatic = true
         }
     }
-    
+
     sourceSets {
         androidMain.dependencies {
             implementation(compose.preview)
@@ -44,19 +44,22 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
+
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+
             implementation(libs.kotlinx.datetime)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.kotlinx.coroutines.core)
+
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.json)
             implementation(libs.ktor.client.serialization)
             implementation(libs.ktor.client.logging)
-            implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.content.negotiation)
-            implementation(libs.kotlinx.coroutines.core)
+
             implementation(libs.coil.compose)
             implementation(libs.coil.network.okhttp)
-            implementation(libs.kotlinx.datetime.v061)
         }
     }
 }

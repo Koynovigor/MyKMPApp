@@ -8,16 +8,11 @@ androidx-lifecycle = "2.8.2"
 coilNetworkOkhttp = "3.0.0-rc01"
 coilCompose = "3.0.0-rc01"
 compose-plugin = "1.6.11"
-foundation = "1.7.0-rc01"
 kotlin = "2.0.20"
 kotlinxCoroutinesCore = "1.9.0"
-kotlinxDatetime = "0.6.0"
-kotlinxDatetimeVersion = "0.6.1"
+kotlinxDatetime = "0.6.1"
 ktorClientCore = "3.0.0"
 kotlinxSerialization = "2.1.0-Beta1"
-skiko = "0.8.15"
-ui = "1.7.0-rc01"
-uiGraphicsAndroid = "1.7.3"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
@@ -25,22 +20,16 @@ androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", nam
 androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilNetworkOkhttp" }
-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "foundation" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetime" }
-kotlinx-datetime-v061 = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetimeVersion" }
 kotlinx-serialization-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorClientCore" }
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientCore" }
-ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktorClientCore" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktorClientCore" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorClientCore" }
 ktor-client-ios = { module = "io.ktor:ktor-client-ios", version.ref = "ktorClientCore" }
 ktor-client-json = { module = "io.ktor:ktor-client-json", version.ref = "ktorClientCore" }
 ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorClientCore" }
 ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktorClientCore" }
-skiko = { module = "org.jetbrains.skiko:skiko", version.ref = "skiko" }
-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "ui" }
-androidx-ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "uiGraphicsAndroid" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
